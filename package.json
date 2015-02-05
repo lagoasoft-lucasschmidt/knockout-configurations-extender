@@ -1,0 +1,29 @@
+{
+  "name": "knockout-configurations-extender",
+  "version": "0.0.1",
+  "description": "Extender is added to knockout that allows you to sets up a configuration scheme to an observable, and change its values runtime.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucastschmidt/knockout-configurations-extender"
+  },
+  "keywords": [
+    "knockout",
+    "configuration",
+    "extender"
+  ],
+  "author": "Lucas Schmidt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucastschmidt/knockout-configurations-extender/issues"
+  },
+  "homepage": "https://github.com/lucastschmidt/knockout-configurations-extender",
+  "dependencies": {
+    "knockout": "^3.2.0",
+    "lodash": "^3.1.0",
+    "pathval": "^0.1.1"
+  }
+}
