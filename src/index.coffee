@@ -26,5 +26,9 @@ ko.extenders.configurations = (target, configurations)->
 
   target.getConfigs = ()-> return ko.mapping.toJS(configurations)
 
+  target.setConfigs = (configs)->
+    configurations(ko.mapping.fromJS(configs))
+    return target
+
   return target
 

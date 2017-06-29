@@ -1,6 +1,6 @@
 {
   "name": "knockout-configurations-extender",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Extender is added to knockout that allows you to sets up a configuration scheme to an observable, and change its values runtime.",
   "main": "lib/index.js",
   "scripts": {

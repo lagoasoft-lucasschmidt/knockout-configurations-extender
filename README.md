@@ -13,6 +13,7 @@ Adds a ``configurations`` extender to knockout, that allows you to set configura
 - observable.isntConfig(name) # returns computable
   + returns false if config value is a falsy value
 - observable.setConfig(name, val) # returns observable
+- observable.setConfigs(obj) # returns observable
 - observable.toggleConfig(name, val) # returns observable
 
 
